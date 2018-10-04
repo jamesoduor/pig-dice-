@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script src="js/jquery-3.3.1.js"></script>
+  <script src="js/scripts.js"></script>
+  <title>Pig Dice</title>
+</head>
+<body>
+<div class="container">
+  <h1><b>Pig Dice</b></h1>
+  <section id="rulesSection">
+    <div id="rulesHeader">
+      <h2>Rules</h2>
+    </div>
+    <div id="rulesDefinitions">
+    <p>The following are the rules for the Pig-Dice game:</p>
+      <ul>
+        <li>Each player rolls a die until either a 1 is rolled or theplayer decides to 'Hold'</li>
+        <li>If the player rolls a 1, they score nothing and it becomes the next player's turn.</li>
+        <li>If the player rolls any other number, it is added to their turn total and the player's turn continues.</li>
+        <li>If a player chooses to "hold", their turn total is added to their score, and it becomes the next player's turn.</li>
+      </ul>
+    </div>
+  </section>
+  <p><b><i>Note:When a player Presses the hold button,they get to keep all the points the have accumulated so <br>far but if they happen to score 1 then they loose all their ponts</i></b></p>
+  <div class="row">
+    <div class="A1">
+      <div class="col-md-6">
+        <form id="GGH">
+          <label for="AA1" id="K2">Player 1</label>
+          <input type="text" class="form-control" id="PN">
+           <button type="submit" id="submit" class="btn btn-success" name="button">Let's Play :-)</button>
+        </form>
+        <h3 class="f1"></h3>
+        Total score:<p class="dietotal1"></p>
+        current score:<p class="diecurrent1"></p>
+      </div>
+    </div>
+    <div class="A2">
+      <div class="col-md-6">
+        <form id="BS2">
+          <label for="AA2" id="K1"> Player 2</label>
+          <input type="text" class="form-control" id="PN2">
+           <button type="submit" id="submit" class="btn btn-success" name="button">Let's Play :-)</button>
+        </form>
+        <h4 class="f2"></h4>
+        Total score:<p class="dietotal2"></p>
+        Current score:<p class="diecurrent2"></p>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="A3">
+    <div class="row">
+      <div class="col-md-6">
+      <form id="Roll">
+        <!-- <label for="DA">Roll</label> -->
+        <!-- <input form="DA" type="text" class="form-control" id="AA"> -->
+        <button type="click" id="RRR" class="btn btn-danger" name="button">Roll the Dice!!</button>
+        <button type="click" id="CCC" class="btn btn-info" name="button">HOLD</button>
+         <!-- <p  id="JFK">HI</p> -->
+      </div>
+      <div class="A3">
+        <div class="row">
+          <div class="col-md-6">
+          <form id="Roll">
+            <!-- <label for="DA">Roll</label> -->
+            <!-- <input form="DA" type="text" class="form-control" id="AA"> -->
+            <button type="click" id="PPP" class="btn btn-danger" name="button">Roll the Dice!!</button>
+            <button type="click" id="GGG" class="btn btn-info" name="button">HOLD</button>
+             <!-- <p  id="JFK">HI</p> -->
+          </div>
+          </form>
+        </div>
+        </div>
+      </form>
+    </div>
+
+    </div>
+
+    <!-- <div class="col-sm-3">
+      <form id="Roll">
+         <label for="DA">Roll</label>
+        <input form="DA" type="text" class="form-control" id="AA">
+         <button type="click" id="CCC" class="btn btn-info" name="button">HOLD</button>
+         </form>
+      </div> -->
+
+    </div>
+
+
+</div>
+</body>
+</html>
